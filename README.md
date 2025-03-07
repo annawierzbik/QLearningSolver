@@ -44,18 +44,6 @@ The function `test_hyperparameters_impact(env, steps=100)`
 - Trains multiple agents with different hyperparameter settings
 - Plots performance comparisons
 
-## Q-Learning Algorithm
-Q-Learning is a model-free reinforcement learning algorithm that updates Q-values using the Bellman equation:
-
-\[ Q(s, a) \leftarrow Q(s, a) + \alpha (r + \gamma \max Q(s', a') - Q(s, a)) \]
-
-where:
-- \(Q(s, a)\) is the Q-value for state-action pair
-- \(\alpha\) is the learning rate
-- \(\gamma\) is the discount factor
-- \(r\) is the received reward
-- \(s'\) is the next state
-
 ## Results and Visualization
 - The script plots the effects of different hyperparameters on learning efficiency.
 - Results help in selecting the best values for faster convergence and optimal policy learning.
