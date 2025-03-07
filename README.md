@@ -26,7 +26,7 @@ To train the agent and analyze hyperparameter effects, run:
 
 ```python
 import gym
-from your_script_name import test_hyperparameters_impact
+from qlearning import test_hyperparameters_impact
 
 env = gym.make("Taxi-v3")
 test_hyperparameters_impact(env)
